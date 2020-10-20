@@ -16,36 +16,168 @@
 	<title>Login</title>
 </head>
 <body>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-6 offset-md-3">
-				<div class="card mt-5">
-				  <div class="card-header">
-				    Login
-				  </div>
-				  <div class="card-body">
-					<form>
-					  <div class="form-group">
-					    <label for="exampleInputEmail1">Email address</label>
-					    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-					    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+	<header>
+		<div class="header_top">
+		    <nav class="navbar navbar-dark bg-dark navbar-expand-md">
+		        <div class="col-lg-1">
+		            <img src="https://upload.wikimedia.org/wikipedia/commons/1/11/Zenkit_Logo_Icon.png" height="50" width="37">
+		        </div>
+		        <div class="container">
+		            <button class="navbar-toggler d-none" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+		            <div class="collapse navbar-collapse" id="navcol-1">
+		                <ul class="nav navbar-nav w-100 justify-content-between">
+		                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">For students</a>
+		                        <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#">Providing a list of disciplines students.</a><a class="dropdown-item" role="presentation" href="#">The choice of elective disciplines.</a><a class="dropdown-item" role="presentation" href="#">Запись на дисциплины.</a><a class="dropdown-item" role="presentation" href="mainPage.html">Formation of an individual educational student plan.</a></div>
+		                    </li>
+		                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">For advisor</a>
+		                        <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#">Checking individual plans.</a><a class="dropdown-item" role="presentation" href="#">The confirmation.</a></div>
+		                    </li>
+		                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" data-toggle="dropdown" data-display="static" aria-expanded="false" href="#">For dean's office</a>
+		                        <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#">IEP checks and confirmations.</a></div>
+		                    </li>
+		                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" data-toggle="dropdown" data-display="static" aria-expanded="false" href="#">For Vice Rector</a>
+		                        <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#">Approve individual student plans
+		                        </a></div>
+		                    </li>
+		                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" data-toggle="dropdown" data-display="static" aria-expanded="false" href="#">For Manager</a>
+		                        <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#">Registration for disciplines on an individual basis
+		                            plan
+		                        </a></div>
+		                    </li>
+		                </ul>
+		            </div>
+		        </div>
+		        <div class="col-lg-1">
+
+		            <select class="selectpicker  bg-dark text-white" data-width="fit">
+		                <option data-content='<span class=" flag-icon-us"></span> English'>ENG</option>
+		                <option  data-content='<span class="flag-icon flag-icon-mx"></span> Español'>RUS</option>
+		            </select>
+
+
+		        </div>
+		    </nav>
+		</div>
+	</header>
+
+	<section class="mb-5">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 offset-md-3">
+					<div class="card mt-5">
+					  <div class="card-header">
+					    <h3>Login</h3>
 					  </div>
-					  <div class="form-group">
-					    <label for="exampleInputPassword1">Password</label>
-					    <input type="password" class="form-control" id="exampleInputPassword1">
+					  <div class="card-body">
+						<form>
+						  <div class="form-group">
+						    <label for="exampleInputEmail1">Email address</label>
+						    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+						  </div>
+						  <div class="form-group">
+						    <label for="exampleInputPassword1">Password</label>
+						    <input type="password" class="form-control" id="exampleInputPassword1">
+						  </div>
+						  <div class="form-group form-check">
+						    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+						    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+						  </div>
+						  <div class="d-flex justify-content-center">
+						  	<button type="submit" class="btn btn-primary signin">Sign in</button>
+						  </div>
+						</form>
 					  </div>
-					  <div class="form-group form-check">
-					    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-					    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-					  </div>
-					  <div class="d-flex justify-content-center">
-					  	<button type="submit" class="btn btn-primary">Sign in</button>
-					  </div>
-					</form>
-				  </div>
+					</div>
 				</div>
 			</div>
+		</div>		
+	</section>
+
+
+	<footer class="text-white bg-dark">
+		<div class="container">
+			<div class="col-md-6 offset-md-3 contactus">
+				<form>
+					<div class="form-group">
+						<label for="nameitem">Name</label>
+						<input type="text" name="name" class="form-control" placeholder="Yoyr name" id="nameitem">
+					</div>
+				  <div class="form-group">
+				    <label for="emailitem">Email address</label>
+				    <input type="email" class="form-control" id="emailitem" placeholder="name@example.com">
+				  </div>
+				  <div class="form-group">
+				    <label for="messageitem">Your message</label>
+				    <textarea class="form-control" id="messageitem" rows="3" placeholder="Message"></textarea>
+				  </div>
+				</form>
+			</div>
 		</div>
-	</div>
+	  <div class="text-center text-white-50 copyright">© 2020 Copyright:
+	    <a href="https://mdbootstrap.com/" class="text-white"> hugo.kz</a>
+	  </div>
+	</footer>
+
+	<script type="text/javascript">
+
+	   $(function(){
+        $('.selectpicker').selectpicker();
+        });
+        var $maxWidthElement = $('.navbar'),
+            maxWidth = $maxWidthElement.width();
+
+        function positionDropdowns() {
+            $('.dropdown-menu').each(function() {
+                $(this).removeClass('dropdown-menu-right');
+                var $navItem = $(this).closest('.dropdown'),
+                    dropdownWidth = $(this).outerWidth(),
+                    dropdownOffsetLeft = $navItem.offset().left,
+                    dropdownOffsetRight = maxWidth - (dropdownOffsetLeft + dropdownWidth),
+                    linkCenterOffsetLeft = dropdownOffsetLeft + $navItem.outerWidth() / 2,
+                    outputCss = {
+                        left: 0,
+                        right: '',
+                        width: ''
+                    };
+
+                if ((linkCenterOffsetLeft - dropdownWidth / 2 > 0) & (linkCenterOffsetLeft + dropdownWidth / 2 < maxWidth)) {
+                    // center the dropdown menu if possible
+                    outputCss.left = -(dropdownWidth / 2 - $navItem.outerWidth() / 2);
+                } else if ((dropdownOffsetRight < 0) & (dropdownWidth < dropdownOffsetLeft + $navItem.outerWidth())) {
+                    // set the dropdown menu to left if it exceeds the viewport on the right
+                    $(this).addClass('dropdown-menu-right');
+                    outputCss.left = '';
+                } else if (dropdownOffsetLeft + dropdownWidth > maxWidth) {
+                    // full width if the dropdown is too large to fit on the right
+                    outputCss.left = 0;
+                    outputCss.right = 0;
+                    outputCss.width = maxWidth + 'px';
+                }
+                $(this).css({
+                    left: outputCss.left,
+                    right: outputCss.right,
+                    width: outputCss.width
+                });
+            });
+        }
+
+        $("#trigger-btn").on("click", function() {
+            positionDropdowns();
+            $(this)
+                .text("Done!")
+                .addClass("btn-success")
+                .removeClass("btn-danger");
+        });
+
+        var resizeTimer;
+
+        $(window).on("resize", function(e) {
+            clearTimeout(resizeTimer);
+            resizeTimer = setTimeout(function() {
+                maxWidth = $maxWidthElement.width();
+                positionDropdowns();
+            }, 250);
+        });
+	</script>
 </body>
 </html>

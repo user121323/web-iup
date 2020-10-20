@@ -15,437 +15,462 @@
 	<title>Main Page</title>
 </head>
 <body>
+	<header>
+		<div class="header_top">
+		    <nav class="navbar navbar-dark bg-dark navbar-expand-md">
+		        <div class="col-lg-1">
+		            <img src="https://upload.wikimedia.org/wikipedia/commons/1/11/Zenkit_Logo_Icon.png" height="50" width="37">
+		        </div>
+		        <div class="container">
+		            <button class="navbar-toggler d-none" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+		            <div class="collapse navbar-collapse" id="navcol-1">
+		                <ul class="nav navbar-nav w-100 justify-content-between">
+		                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">For students</a>
+		                        <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#">Providing a list of disciplines students.</a><a class="dropdown-item" role="presentation" href="#">The choice of elective disciplines.</a><a class="dropdown-item" role="presentation" href="#">Запись на дисциплины.</a><a class="dropdown-item" role="presentation" href="mainPage.html">Formation of an individual educational student plan.</a></div>
+		                    </li>
+		                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">For advisor</a>
+		                        <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#">Checking individual plans.</a><a class="dropdown-item" role="presentation" href="#">The confirmation.</a></div>
+		                    </li>
+		                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" data-toggle="dropdown" data-display="static" aria-expanded="false" href="#">For dean's office</a>
+		                        <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#">IEP checks and confirmations.</a></div>
+		                    </li>
+		                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" data-toggle="dropdown" data-display="static" aria-expanded="false" href="#">For Vice Rector</a>
+		                        <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#">Approve individual student plans
+		                        </a></div>
+		                    </li>
+		                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" data-toggle="dropdown" data-display="static" aria-expanded="false" href="#">For Manager</a>
+		                        <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#">Registration for disciplines on an individual basis
+		                            plan
+		                        </a></div>
+		                    </li>
+		                </ul>
+		            </div>
+		        </div>
+		        <div class="col-lg-1">
 
-<div class="header_top">
-    <nav class="navbar navbar-dark bg-dark navbar-expand-md">
-        <div class="col-lg-1">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/1/11/Zenkit_Logo_Icon.png" height="50" width="37">
-        </div>
-        <div class="container">
-            <button class="navbar-toggler d-none" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navcol-1">
-                <ul class="nav navbar-nav w-100 justify-content-between">
-                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">For students</a>
-                        <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#">Providing a list of disciplines students.</a><a class="dropdown-item" role="presentation" href="#">The choice of elective disciplines.</a><a class="dropdown-item" role="presentation" href="#">Запись на дисциплины.</a><a class="dropdown-item" role="presentation" href="#">Formation of an individual educational student plan.</a></div>
-                    </li>
-                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">For advisor</a>
-                        <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#">Checking individual plans.</a><a class="dropdown-item" role="presentation" href="#">The confirmation.</a></div>
-                    </li>
-                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" data-toggle="dropdown" data-display="static" aria-expanded="false" href="#">For dean's office</a>
-                        <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#">IEP checks and confirmations.</a></div>
-                    </li>
-                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" data-toggle="dropdown" data-display="static" aria-expanded="false" href="#">For Vice Rector</a>
-                        <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#">Approve individual student plans
-                        </a></div>
-                    </li>
-                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" data-toggle="dropdown" data-display="static" aria-expanded="false" href="#">For Manager</a>
-                        <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#">Registration for disciplines on an individual basis
-                            plan
-                        </a></div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="col-lg-1">
-
-            <select class="selectpicker" data-width="fit">
-                <option data-content='<span class=" flag-icon-us"></span> English'>ENG</option>
-                <option  data-content='<span class="flag-icon flag-icon-mx"></span> Español'>RUS</option>
-            </select>
+		            <select class="selectpicker bg-dark text-white" data-width="fit">
+		                <option data-content='<span class=" flag-icon-us"></span> English'>ENG</option>
+		                <option  data-content='<span class="flag-icon flag-icon-mx"></span> Español'>RUS</option>
+		            </select>
 
 
-        </div>
-    </nav>
+		        </div>
+		    </nav>
+		</div>	
+	</header>
 
-</div>
+	<section class="mb-4">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 offset-md-2">
+					<h2 class="mt-5 mb-5">Жеке оқу бағдарламасын қалыптастыру студенттің жоспары / Формирование индивидуального учебного плана студента / Formation of an individual student's curriculum.</h2>
+					<form>
+						<div class="form-group">
+							<label><strong>Білім алушының аты-жөні/Ф.И.О.  обучающегося/Student name:</strong></label>
+							<input type="text" name="fullname"  class="form-control">
+							
+						</div>
+						<div class="form-group">
+							<label><strong>Білім алушының Id/Id студента / Student Id:</strong></label>
+							<input type="number" name="studentid"  class="form-control">
+							
+						</div>
+						<div class="form-group">
+							<label><strong>Курс/Курс/Course</strong></label>
+							<select class="form-control" id="course">
+								<option value="course1">
+									1
+								</option>
+								<option value="course2">
+									2
+								</option>
+								<option value="course3">
+									3
+								</option>
+								<option value="course4">
+									4
+								</option>
+							</select>
+						</div>
 
-	<div class="container">
-		<div class="row">
-			<div class="col-md-8 offset-md-2">
-				<h2 class="mt-5 mb-5">Жеке оқу бағдарламасын қалыптастыру студенттің жоспары / Формирование индивидуального учебного плана студента / Formation of an individual student's curriculum.</h2>
-				<form>
-					<div class="form-group">
-						<label><strong>Білім алушының аты-жөні/Ф.И.О.  обучающегося/Student name:</strong></label>
-						<input type="text" name="fullname"  class="form-control">
-						
-					</div>
-					<div class="form-group">
-						<label><strong>Білім алушының Id/Id студента / Student Id:</strong></label>
-						<input type="number" name="studentid"  class="form-control">
-						
-					</div>
-					<div class="form-group">
-						<label><strong>Курс/Курс/Course</strong></label>
-						<select class="form-control" id="course">
-							<option value="course1">
-								1
-							</option>
-							<option value="course2">
-								2
-							</option>
-							<option value="course3">
-								3
-							</option>
-							<option value="course4">
-								4
-							</option>
-						</select>
-					</div>
+						<div class="form-group">
+							<label><strong>Білім беру бағдарламалар тобының шифры және атауы / Шифр и наименование группы
+							 образовательных программ / Code and name of the group of educational programs:</strong></label>
+							<select class="form-control" id="educationalprograms"></select>
+						</div>
 
-					<div class="form-group">
-						<label><strong>Білім беру бағдарламалар тобының шифры және атауы / Шифр и наименование группы
-						 образовательных программ / Code and name of the group of educational programs:</strong></label>
-						<select class="form-control" id="educationalprograms"></select>
-					</div>
+						<div class="form-group">
+							<label><strong>Тобы / Группа/ Group</strong></label>
+							<select class="form-control" id="group"></select>
+						</div>
 
-					<div class="form-group">
-						<label><strong>Тобы / Группа/ Group</strong></label>
-						<select class="form-control" id="group"></select>
-					</div>
+						<div class="form-group" id="elective">
+							<label><strong>Name of the elective track:<strong></label>
+							<select class="form-control" id="electivetracks"></select>
+						</div>
 
-					<div class="form-group" id="elective">
-						<label><strong>Name of the elective track:<strong></label>
-						<select class="form-control" id="electivetracks"></select>
-					</div>
+						<div class="form-group mt-3">
+							<table class="table">
+								<thead>
+									<tr class="tablehead">
+										<th scope="col">№</th>
+										<th scope="col">Пән атауы/ Наименование дисциплины/ Course name</th>
+									</tr>
+									<tr>
+										<th scope="col" colspan="2">Күзгі семестр/Осенний семестр/ Autumn  semester</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<th>1</th>
+										<th>
+											<select class="form-control discipline"></select>
+										</th>
+									</tr>
+									<tr>
+										<th>2</th>
+										<th>
+											<select class="form-control discipline"></select>
+										</th>
+									</tr>
+									<tr>
+										<th>3</th>
+										<th>
+											<select class="form-control discipline"></select>
+										</th>
+									</tr>
+									<tr>
+										<th>4</th>
+										<th>
+											<select class="form-control discipline"></select>
+										</th>
+									</tr>
+									<tr>
+										<th>5</th>
+										<th>
+											<select class="form-control discipline"></select>
+										</th>
+									</tr>
+									<tr>
+										<th>6</th>
+										<th>
+											<select class="form-control discipline"></select>
+										</th>
+									</tr>
+									<tr>
+										<th>7</th>
+										<th>
+											<select class="form-control discipline"></select>
+										</th>
+									</tr>
+									<tr>
+										<th>8</th>
+										<th>
+											<select class="form-control discipline"></select>
+										</th>
+									</tr>
+								</tbody>
 
-					<div class="form-group mt-3">
-						<table class="table">
-							<thead>
-								<tr class="tablehead">
-									<th scope="col">№</th>
-									<th scope="col">Пән атауы/ Наименование дисциплины/ Course name</th>
-								</tr>
-								<tr>
-									<th scope="col" colspan="2">Күзгі семестр/Осенний семестр/ Autumn  semester</th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									<th>1</th>
-									<th>
-										<select class="form-control discipline"></select>
-									</th>
-								</tr>
-								<tr>
-									<th>2</th>
-									<th>
-										<select class="form-control discipline"></select>
-									</th>
-								</tr>
-								<tr>
-									<th>3</th>
-									<th>
-										<select class="form-control discipline"></select>
-									</th>
-								</tr>
-								<tr>
-									<th>4</th>
-									<th>
-										<select class="form-control discipline"></select>
-									</th>
-								</tr>
-								<tr>
-									<th>5</th>
-									<th>
-										<select class="form-control discipline"></select>
-									</th>
-								</tr>
-								<tr>
-									<th>6</th>
-									<th>
-										<select class="form-control discipline"></select>
-									</th>
-								</tr>
-								<tr>
-									<th>7</th>
-									<th>
-										<select class="form-control discipline"></select>
-									</th>
-								</tr>
-								<tr>
-									<th>8</th>
-									<th>
-										<select class="form-control discipline"></select>
-									</th>
-								</tr>
-							</tbody>
-
-							<thead>
-								<tr>
-									<th scope="col" colspan="2">Көктемгі семеcтр/Весенний семестр/Spring semester </th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									<th>9</th>
-									<th>
-										<select class="form-control discipline"></select>
-									</th>
-								</tr>
-								<tr>
-									<th>10</th>
-									<th>
-										<select class="form-control discipline"></select>
-									</th>
-								</tr>
-								<tr>
-									<th>11</th>
-									<th>
-										<select class="form-control discipline"></select>
-									</th>
-								</tr>
-								<tr>
-									<th>12</th>
-									<th>
-										<select class="form-control discipline"></select>
-									</th>
-								</tr>
-								<tr>
-									<th>13</th>
-									<th>
-										<select class="form-control discipline"></select>
-									</th>
-								</tr>
-								<tr>
-									<th>14</th>
-									<th>
-										<select class="form-control discipline"></select>
-									</th>
-								</tr>
-								<tr>
-									<th>15</th>
-									<th>
-										<select class="form-control discipline"></select>
-									</th>
-								</tr>
-								<tr>
-									<th>16</th>
-									<th>
-										<select class="form-control discipline"></select>
-									</th>
-								</tr>
-							</tbody>
-						</table>
-					</div>
-					<div class="form-group d-flex justify-content-center">
-						<input type="button" name="formation" value="Жасау / Формировать / Formation"class="btn btn-primary">
-					</div>
-				</form>
-				
+								<thead>
+									<tr>
+										<th scope="col" colspan="2">Көктемгі семеcтр/Весенний семестр/Spring semester </th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<th>9</th>
+										<th>
+											<select class="form-control discipline"></select>
+										</th>
+									</tr>
+									<tr>
+										<th>10</th>
+										<th>
+											<select class="form-control discipline"></select>
+										</th>
+									</tr>
+									<tr>
+										<th>11</th>
+										<th>
+											<select class="form-control discipline"></select>
+										</th>
+									</tr>
+									<tr>
+										<th>12</th>
+										<th>
+											<select class="form-control discipline"></select>
+										</th>
+									</tr>
+									<tr>
+										<th>13</th>
+										<th>
+											<select class="form-control discipline"></select>
+										</th>
+									</tr>
+									<tr>
+										<th>14</th>
+										<th>
+											<select class="form-control discipline"></select>
+										</th>
+									</tr>
+									<tr>
+										<th>15</th>
+										<th>
+											<select class="form-control discipline"></select>
+										</th>
+									</tr>
+									<tr>
+										<th>16</th>
+										<th>
+											<select class="form-control discipline"></select>
+										</th>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div class="form-group d-flex justify-content-center">
+							<input type="button" name="formation" value="Жасау / Формировать / Formation"class="btn btn-primary">
+						</div>
+					</form>
+					
+				</div>
 			</div>
 		</div>
-	</div>
+	</section>
 
 
+	<footer class="text-white bg-dark">
+		<div class="container">
+			<div class="col-md-6 offset-md-3 contactus">
+				<form>
+					<div class="form-group">
+						<label for="nameitem">Name</label>
+						<input type="text" name="name" class="form-control" placeholder="Yoyr name" id="nameitem">
+					</div>
+				  <div class="form-group">
+				    <label for="emailitem">Email address</label>
+				    <input type="email" class="form-control" id="emailitem" placeholder="name@example.com">
+				  </div>
+				  <div class="form-group">
+				    <label for="messageitem">Your message</label>
+				    <textarea class="form-control" id="messageitem" rows="3" placeholder="Message"></textarea>
+				  </div>
+				</form>
+			</div>
+		</div>
+	  <div class="text-center text-white-50 copyright">© 2020 Copyright:
+	    <a href="https://mdbootstrap.com/" class="text-white"> hugo.kz</a>
+	  </div>
+	</footer>
 
 	<script type="text/javascript">
 		$(document).ready(function () {
-    $("#course").change(function () {
-        var val = $(this).val();
-        if (val == "course1") {
-            $("#educationalprograms").html("<option value='course1educationalprogram1'>B0557-IT (B0557-Informational Technologies)</option><option value='course1educationalprogram2'>CSp (Computer Science)</option><option value='course1educationalprogram3'>FIN (Finance)</option><option value='course1educationalprogram4'>FIZ (Physics)</option><option value='course1educationalprogram5'>ITM (Management)</option><option value='course1educationalprogram6'>JUR (Jurnalism)</option>");
-
-        	$("#elective").css("display","none");
-
-        	$("$group").html("");
-        }
-        else if (val == "course2") {
-            $("#educationalprograms").html("<option value='course2educationalprogram1'>CS (Computer Science)</option><option value='course2educationalprogram2'>CSSE (Computer Science and Software Engineering)</option><option value='course2educationalprogram3'>CSp (Computer Science)</option><option value='course2educationalprogram4'>FIN (Finance)</option><option value='course2educationalprogram5'>FIZ (Physics)</option> <option value='course2educationalprogram6'>IS (Information Systems)</option>");
-
-        	$("#electivetracks").html("<option value='electivetrack1'>Green Technologies in IT</option><option value='electivetrack2'>Global Policy and Information Security</option><option value='electivetrack3'>Communication Technologies</option><option value='electivetrack4'>Sociology and Research Methods</option><option value='electivetrack5'>Legal Aspects of Computer Science</option><option value='electivetrack6'>Fundamentals of Management and Marketing</option><option value='electivetrack7'>Fundamentals of Finance and Accounting</option>");
-
-        	$("#elective").css("display","block");
-
-        	$("$group").html("");
-        }
-        else if (val == "course3") {
-            $("#educationalprograms").html("<option value='course3educationalprogram1'>CS (Computer Science)</option><option value='course3educationalprogram2'>CSSE (Computer Science and Software Engineering)</option><option value='course3educationalprogram3'>CSp (Computer Science)</option><option value='course3educationalprogram4'>FIN (Finance)</option><option value='course3educationalprogram5'>IS (Information Systems)</option><option value='course3educationalprogram6'>ITM (Management)</option>");
-
-        	$("#electivetracks").html("<option value='electivetrack1'>Software Development</option><option value='electivetrack2'>Data Analysis</option><option value='electivetrack3'>Network and System Administration</option><option value='electivetrack4'>Robotics</option>");
-
-        	$("#elective").css("display","block");
-
-        	$("$group").html("");
-        }
-        else if (val == "course4") {
-            $("#educationalprograms").html("<option value='course4educationalprogram1'>CS (Computer Science)</option><option value='course4educationalprogram2'>CSSE (Computer Science and Software Engineering)</option><option value='course4educationalprogram3'>FIN (Finance)</option><option value='course4educationalprogram4'>IS (Information Systems)</option><option value='course4educationalprogram5'>ITM (Management)</option>");
-
-        	$("#elective").css("display","block");
-
-        	$("#electivetracks").html("<option value='electivetrack1'>Software Development</option><option value='electivetrack2'>Data Analysis</option><option value='electivetrack3'>Network and System Administration</option><option value='electivetrack4'>Robotics</option>");
-        }
-   		});
-
-	});
-
-	$(document).ready(function(){
-		$("#educationalprograms").change(function(){
+	    $("#course").change(function () {
 	        var val = $(this).val();
-	        // course 1
-			if (val == "course1educationalprogram1") {
-				$("#group").html("<option value='group1'>IT1 - 2001</option><option value='IT12002'>IT1 - 2002</option>");
-				$(".discipline").html("<option>Select discipline</option><option value='discipline1'>SWD7: MobIle technologIes and application</option><option value='discipline2'>Web Programming 2</option><option value='discipline3'>Data Science and Machine Learning</option><option value='discipline4'>Non-relational database systems</option>");	
-			}
-			else if (val == "course1educationalprogram2") {
-				$("#group").html("<option value='group1'>PCS - 2001</option><option value='PCS2002'>PCS - 2002</option>");
-				$(".discipline").html("<option>Select discipline</option><option value='discipline1'>SWD7: MobIle technologIes and application</option><option value='discipline2'>Web Programming 2</option><option value='discipline3'>Data Science and Machine Learning</option><option value='discipline4'>Non-relational database systems</option>");
-			}
-			else if (val == "course1educationalprogram3") {
-				$("#group").html("<option value='group1'>FEFE - 2001</option><option value='FEFE2002'>FEFE - 2002</option>");
-				$(".discipline").html("<option>Select discipline</option><option value='discipline1'>SWD7: MobIle technologIes and application</option><option value='discipline2'>Web Programming 2</option><option value='discipline3'>Data Science and Machine Learning</option><option value='discipline4'>Non-relational database systems</option>");
-			}
-			else if (val == "course1educationalprogram4") {
-				$("#group").html("<option value='group1'>PCP - 2001</option><option value='PCP2002'>PCP - 2002</option>");
-				$(".discipline").html("<option>Select discipline</option><option value='discipline1'>SWD7: MobIle technologIes and application</option><option value='discipline2'>Web Programming 2</option><option value='discipline3'>Data Science and Machine Learning</option><option value='discipline4'>Non-relational database systems</option>");
-			}
-			else if (val == "course1educationalprogram5") {
-				$("#group").html("<option value='group1'>MAIM - 2001</option><option value='MAIM2002'>MAIM - 2002</option>");
-				$(".discipline").html("<option>Select discipline</option><option value='discipline1'>SWD7: MobIle technologIes and application</option><option value='discipline2'>Web Programming 2</option><option value='discipline3'>Data Science and Machine Learning</option><option value='discipline4'>Non-relational database systems</option>");
-			}
-			else if (val == "course1educationalprogram6") {
-				$("#group").html("<option value='group1'>JUR - 2001</option><option value='JUR2002'>JUR - 2002</option>");
-				$(".discipline").html("<option>Select discipline</option><option value='discipline1'>SWD7: MobIle technologIes and application</option><option value='discipline2'>Web Programming 2</option><option value='discipline3'>Data Science and Machine Learning</option><option value='discipline4'>Non-relational database systems</option>");
-			}
-			//course 2
-			else if (val == "course2educationalprogram1") {
-				$("#group").html("<option value='group1'>ITCS - 1901</option><option value='ITCS1902'>ITCS - 1902</option>");
-				$(".discipline").html("<option>Select discipline</option><option value='discipline1'>SWD7: MobIle technologIes and application</option><option value='discipline2'>Web Programming 2</option><option value='discipline3'>Data Science and Machine Learning</option><option value='discipline4'>Non-relational database systems</option>");
-			}
-			else if (val == "course2educationalprogram2") {
-				$("#group").html("<option value='group1'>ITAC - 1901</option><option value='ITAC1902'>ITAC - 1902</option>");
-				$(".discipline").html("<option>Select discipline</option><option value='discipline1'>SWD7: MobIle technologIes and application</option><option value='discipline2'>Web Programming 2</option><option value='discipline3'>Data Science and Machine Learning</option><option value='discipline4'>Non-relational database systems</option>");
-			}
-			else if (val == "course2educationalprogram3") {
-				$("#group").html("<option value='group1'>PCS - 1901</option><option value='PCS1902'>PCS - 1902</option>");
-				$(".discipline").html("<option>Select discipline</option><option value='discipline1'>SWD7: MobIle technologIes and application</option><option value='discipline2'>Web Programming 2</option><option value='discipline3'>Data Science and Machine Learning</option><option value='discipline4'>Non-relational database systems</option>");
-			}
-			else if (val == "course2educationalprogram4") {
-				$("#group").html("<option value='group1'>FEFE - 1901</option><option value='FEFE1902'>FEFE - 1902</option>");
-				$(".discipline").html("<option>Select discipline</option><option value='discipline1'>SWD7: MobIle technologIes and application</option><option value='discipline2'>Web Programming 2</option><option value='discipline3'>Data Science and Machine Learning</option><option value='discipline4'>Non-relational database systems</option>");
-			}
-			else if (val == "course2educationalprogram5") {
-				$("#group").html("<option value='group1'>PCP - 1901</option><option value='PCP1902'>PCP - 1902</option>");
-				$(".discipline").html("<option>Select discipline</option><option value='discipline1'>SWD7: MobIle technologIes and application</option><option value='discipline2'>Web Programming 2</option><option value='discipline3'>Data Science and Machine Learning</option><option value='discipline4'>Non-relational database systems</option>");
-			}
-			else if (val == "course2educationalprogram6") {
-				$("#group").html("<option value='group1'>ITIS - 1901</option><option value='ITIS1902'>ITIS - 1902</option>");
-				$(".discipline").html("<option>Select discipline</option><option value='discipline1'>SWD7: MobIle technologIes and application</option><option value='discipline2'>Web Programming 2</option><option value='discipline3'>Data Science and Machine Learning</option><option value='discipline4'>Non-relational database systems</option>");
-			}
-			//course 3
-			else if (val == "course3educationalprogram1") {
-				$("#group").html("<option value='group1'>CS - 1801</option><option value='CS1802'>CS - 1802</option>");
-				$(".discipline").html("<option>Select discipline</option><option value='discipline1'>SWD7: MobIle technologIes and application</option><option value='discipline2'>Web Programming 2</option><option value='discipline3'>Data Science and Machine Learning</option><option value='discipline4'>Non-relational database systems</option>");
-			}
-			else if (val == "course3educationalprogram2") {
-				$("#group").html("<option value='group1'>CSSE - 1801</option><option value='CSSE1802'>CSSE - 1802</option>");
-				$(".discipline").html("<option>Select discipline</option><option value='discipline1'>SWD7: MobIle technologIes and application</option><option value='discipline2'>Web Programming 2</option><option value='discipline3'>Data Science and Machine Learning</option><option value='discipline4'>Non-relational database systems</option>");
-			}
-			else if (val == "course3educationalprogram3") {
-				$("#group").html("<option value='group1'>CSp - 1801</option><option value='CSp1802'>CSp - 1802</option>");
-				$(".discipline").html("<option>Select discipline</option><option value='discipline1'>SWD7: MobIle technologIes and application</option><option value='discipline2'>Web Programming 2</option><option value='discipline3'>Data Science and Machine Learning</option><option value='discipline4'>Non-relational database systems</option>");
-			}
-			else if (val == "course3educationalprogram4") {
-				$("#group").html("<option value='group1'>FIN - 1801</option><option value='FIN1802'>FIN - 1802</option>");
-				$(".discipline").html("<option>Select discipline</option><option value='discipline1'>SWD7: MobIle technologIes and application</option><option value='discipline2'>Web Programming 2</option><option value='discipline3'>Data Science and Machine Learning</option><option value='discipline4'>Non-relational database systems</option>");
-			}
-			else if (val == "course3educationalprogram5") {
-				$("#group").html("<option value='group1'>IS - 1801</option><option value='IS1802'>IS - 1802</option>");
-				$(".discipline").html("<option>Select discipline</option><option value='discipline1'>SWD7: MobIle technologIes and application</option><option value='discipline2'>Web Programming 2</option><option value='discipline3'>Data Science and Machine Learning</option><option value='discipline4'>Non-relational database systems</option>");
-			}
-			else if (val == "course3educationalprogram6") {
-				$("#group").html("<option value='group1'>ITM - 1801</option><option value='ITM1802'>ITM - 1802</option>");
-				$(".discipline").html("<option>Select discipline</option><option value='discipline1'>SWD7: MobIle technologIes and application</option><option value='discipline2'>Web Programming 2</option><option value='discipline3'>Data Science and Machine Learning</option><option value='discipline4'>Non-relational database systems</option>");
-			}
-			//course 4
-			else if (val == "course4educationalprogram1") {
-				$("#group").html("<option value='group1'>CS - 1701</option><option value='CS1702'>CS - 1702</option>");
-				$(".discipline").html("<option>Select discipline</option><option value='discipline1'>Philosophy</option><option value='discipline2'>Web Programming 2</option><option value='discipline3'>Data Science and Machine Learning</option><option value='discipline4'>Non-relational database systems</option>");
-			}
-			else if (val == "course4educationalprogram2") {
-				$("#group").html("<option value='group1'>CSSE - 1701</option><option value='CSSE1702'>CSSE - 1702</option>");
-				$(".discipline").html("<option>Select discipline</option><option value='discipline1'>SWD7: MobIle technologIes and application</option><option value='discipline2'>Web Programming 2</option><option value='discipline3'>Data Science and Machine Learning</option><option value='discipline4'>Non-relational database systems</option>");
-			}
-			else if (val == "course4educationalprogram3") {
-				$("#group").html("<option value='group1'>FIN - 1701</option><option value='FIN1702'>FIN - 1702</option>");
-				$(".discipline").html("<option>Select discipline</option><option value='discipline1'>Insurance</option><option value='discipline2'>Web Programming 2</option><option value='discipline3'>Data Science and Machine Learning</option><option value='discipline4'>Non-relational database systems</option>");
-			}
-			else if (val == "course4educationalprogram4") {
-				$("#group").html("<option value='group1'>IS - 1701</option><option value='IS1702'>IS - 1702</option>");
-				$(".discipline").html("<option>Select discipline</option><option value='discipline1'>Development of mobile application</option><option value='discipline2'>Web Programming 2</option><option value='discipline3'>Data Science and Machine Learning</option><option value='discipline4'>Non-relational database systems</option>");
-			}
-			else if (val == "course4educationalprogram5") {
-				$("#group").html("<option value='group1'>ITM - 1701</option><option value='ITM1702'>ITM - 1702</option>");
-				$(".discipline").html("<option>Select discipline</option><option value='discipline1'>Innovation Management</option><option value='discipline2'>Web Programming 2</option><option value='discipline3'>Data Science and Machine Learning</option><option value='discipline4'>Non-relational database systems</option>");
-			}
+	        if (val == "course1") {
+	            $("#educationalprograms").html("<option value='course1educationalprogram1'>B0557-IT (B0557-Informational Technologies)</option><option value='course1educationalprogram2'>CSp (Computer Science)</option><option value='course1educationalprogram3'>FIN (Finance)</option><option value='course1educationalprogram4'>FIZ (Physics)</option><option value='course1educationalprogram5'>ITM (Management)</option><option value='course1educationalprogram6'>JUR (Jurnalism)</option>");
+
+	        	$("#elective").css("display","none");
+
+	        	$("$group").html("");
+	        }
+	        else if (val == "course2") {
+	            $("#educationalprograms").html("<option value='course2educationalprogram1'>CS (Computer Science)</option><option value='course2educationalprogram2'>CSSE (Computer Science and Software Engineering)</option><option value='course2educationalprogram3'>CSp (Computer Science)</option><option value='course2educationalprogram4'>FIN (Finance)</option><option value='course2educationalprogram5'>FIZ (Physics)</option> <option value='course2educationalprogram6'>IS (Information Systems)</option>");
+
+	        	$("#electivetracks").html("<option value='electivetrack1'>Green Technologies in IT</option><option value='electivetrack2'>Global Policy and Information Security</option><option value='electivetrack3'>Communication Technologies</option><option value='electivetrack4'>Sociology and Research Methods</option><option value='electivetrack5'>Legal Aspects of Computer Science</option><option value='electivetrack6'>Fundamentals of Management and Marketing</option><option value='electivetrack7'>Fundamentals of Finance and Accounting</option>");
+
+	        	$("#elective").css("display","block");
+
+	        	$("$group").html("");
+	        }
+	        else if (val == "course3") {
+	            $("#educationalprograms").html("<option value='course3educationalprogram1'>CS (Computer Science)</option><option value='course3educationalprogram2'>CSSE (Computer Science and Software Engineering)</option><option value='course3educationalprogram3'>CSp (Computer Science)</option><option value='course3educationalprogram4'>FIN (Finance)</option><option value='course3educationalprogram5'>IS (Information Systems)</option><option value='course3educationalprogram6'>ITM (Management)</option>");
+
+	        	$("#electivetracks").html("<option value='electivetrack1'>Software Development</option><option value='electivetrack2'>Data Analysis</option><option value='electivetrack3'>Network and System Administration</option><option value='electivetrack4'>Robotics</option>");
+
+	        	$("#elective").css("display","block");
+
+	        	$("$group").html("");
+	        }
+	        else if (val == "course4") {
+	            $("#educationalprograms").html("<option value='course4educationalprogram1'>CS (Computer Science)</option><option value='course4educationalprogram2'>CSSE (Computer Science and Software Engineering)</option><option value='course4educationalprogram3'>FIN (Finance)</option><option value='course4educationalprogram4'>IS (Information Systems)</option><option value='course4educationalprogram5'>ITM (Management)</option>");
+
+	        	$("#elective").css("display","block");
+
+	        	$("#electivetracks").html("<option value='electivetrack1'>Software Development</option><option value='electivetrack2'>Data Analysis</option><option value='electivetrack3'>Network and System Administration</option><option value='electivetrack4'>Robotics</option>");
+	        }
+	   		});
+
 		});
-	});
 
-	$(document).ready(function(){
-		$("#course").change(function(){
-	        var val = $(this).val();
-	        if (val == "") {}
+		$(document).ready(function(){
+			$("#educationalprograms").change(function(){
+		        var val = $(this).val();
+		        // course 1
+				if (val == "course1educationalprogram1") {
+					$("#group").html("<option value='group1'>IT1 - 2001</option><option value='IT12002'>IT1 - 2002</option>");
+					$(".discipline").html("<option>Select discipline</option><option value='discipline1'>SWD7: MobIle technologIes and application</option><option value='discipline2'>Web Programming 2</option><option value='discipline3'>Data Science and Machine Learning</option><option value='discipline4'>Non-relational database systems</option>");	
+				}
+				else if (val == "course1educationalprogram2") {
+					$("#group").html("<option value='group1'>PCS - 2001</option><option value='PCS2002'>PCS - 2002</option>");
+					$(".discipline").html("<option>Select discipline</option><option value='discipline1'>SWD7: MobIle technologIes and application</option><option value='discipline2'>Web Programming 2</option><option value='discipline3'>Data Science and Machine Learning</option><option value='discipline4'>Non-relational database systems</option>");
+				}
+				else if (val == "course1educationalprogram3") {
+					$("#group").html("<option value='group1'>FEFE - 2001</option><option value='FEFE2002'>FEFE - 2002</option>");
+					$(".discipline").html("<option>Select discipline</option><option value='discipline1'>SWD7: MobIle technologIes and application</option><option value='discipline2'>Web Programming 2</option><option value='discipline3'>Data Science and Machine Learning</option><option value='discipline4'>Non-relational database systems</option>");
+				}
+				else if (val == "course1educationalprogram4") {
+					$("#group").html("<option value='group1'>PCP - 2001</option><option value='PCP2002'>PCP - 2002</option>");
+					$(".discipline").html("<option>Select discipline</option><option value='discipline1'>SWD7: MobIle technologIes and application</option><option value='discipline2'>Web Programming 2</option><option value='discipline3'>Data Science and Machine Learning</option><option value='discipline4'>Non-relational database systems</option>");
+				}
+				else if (val == "course1educationalprogram5") {
+					$("#group").html("<option value='group1'>MAIM - 2001</option><option value='MAIM2002'>MAIM - 2002</option>");
+					$(".discipline").html("<option>Select discipline</option><option value='discipline1'>SWD7: MobIle technologIes and application</option><option value='discipline2'>Web Programming 2</option><option value='discipline3'>Data Science and Machine Learning</option><option value='discipline4'>Non-relational database systems</option>");
+				}
+				else if (val == "course1educationalprogram6") {
+					$("#group").html("<option value='group1'>JUR - 2001</option><option value='JUR2002'>JUR - 2002</option>");
+					$(".discipline").html("<option>Select discipline</option><option value='discipline1'>SWD7: MobIle technologIes and application</option><option value='discipline2'>Web Programming 2</option><option value='discipline3'>Data Science and Machine Learning</option><option value='discipline4'>Non-relational database systems</option>");
+				}
+				//course 2
+				else if (val == "course2educationalprogram1") {
+					$("#group").html("<option value='group1'>ITCS - 1901</option><option value='ITCS1902'>ITCS - 1902</option>");
+					$(".discipline").html("<option>Select discipline</option><option value='discipline1'>SWD7: MobIle technologIes and application</option><option value='discipline2'>Web Programming 2</option><option value='discipline3'>Data Science and Machine Learning</option><option value='discipline4'>Non-relational database systems</option>");
+				}
+				else if (val == "course2educationalprogram2") {
+					$("#group").html("<option value='group1'>ITAC - 1901</option><option value='ITAC1902'>ITAC - 1902</option>");
+					$(".discipline").html("<option>Select discipline</option><option value='discipline1'>SWD7: MobIle technologIes and application</option><option value='discipline2'>Web Programming 2</option><option value='discipline3'>Data Science and Machine Learning</option><option value='discipline4'>Non-relational database systems</option>");
+				}
+				else if (val == "course2educationalprogram3") {
+					$("#group").html("<option value='group1'>PCS - 1901</option><option value='PCS1902'>PCS - 1902</option>");
+					$(".discipline").html("<option>Select discipline</option><option value='discipline1'>SWD7: MobIle technologIes and application</option><option value='discipline2'>Web Programming 2</option><option value='discipline3'>Data Science and Machine Learning</option><option value='discipline4'>Non-relational database systems</option>");
+				}
+				else if (val == "course2educationalprogram4") {
+					$("#group").html("<option value='group1'>FEFE - 1901</option><option value='FEFE1902'>FEFE - 1902</option>");
+					$(".discipline").html("<option>Select discipline</option><option value='discipline1'>SWD7: MobIle technologIes and application</option><option value='discipline2'>Web Programming 2</option><option value='discipline3'>Data Science and Machine Learning</option><option value='discipline4'>Non-relational database systems</option>");
+				}
+				else if (val == "course2educationalprogram5") {
+					$("#group").html("<option value='group1'>PCP - 1901</option><option value='PCP1902'>PCP - 1902</option>");
+					$(".discipline").html("<option>Select discipline</option><option value='discipline1'>SWD7: MobIle technologIes and application</option><option value='discipline2'>Web Programming 2</option><option value='discipline3'>Data Science and Machine Learning</option><option value='discipline4'>Non-relational database systems</option>");
+				}
+				else if (val == "course2educationalprogram6") {
+					$("#group").html("<option value='group1'>ITIS - 1901</option><option value='ITIS1902'>ITIS - 1902</option>");
+					$(".discipline").html("<option>Select discipline</option><option value='discipline1'>SWD7: MobIle technologIes and application</option><option value='discipline2'>Web Programming 2</option><option value='discipline3'>Data Science and Machine Learning</option><option value='discipline4'>Non-relational database systems</option>");
+				}
+				//course 3
+				else if (val == "course3educationalprogram1") {
+					$("#group").html("<option value='group1'>CS - 1801</option><option value='CS1802'>CS - 1802</option>");
+					$(".discipline").html("<option>Select discipline</option><option value='discipline1'>SWD7: MobIle technologIes and application</option><option value='discipline2'>Web Programming 2</option><option value='discipline3'>Data Science and Machine Learning</option><option value='discipline4'>Non-relational database systems</option>");
+				}
+				else if (val == "course3educationalprogram2") {
+					$("#group").html("<option value='group1'>CSSE - 1801</option><option value='CSSE1802'>CSSE - 1802</option>");
+					$(".discipline").html("<option>Select discipline</option><option value='discipline1'>SWD7: MobIle technologIes and application</option><option value='discipline2'>Web Programming 2</option><option value='discipline3'>Data Science and Machine Learning</option><option value='discipline4'>Non-relational database systems</option>");
+				}
+				else if (val == "course3educationalprogram3") {
+					$("#group").html("<option value='group1'>CSp - 1801</option><option value='CSp1802'>CSp - 1802</option>");
+					$(".discipline").html("<option>Select discipline</option><option value='discipline1'>SWD7: MobIle technologIes and application</option><option value='discipline2'>Web Programming 2</option><option value='discipline3'>Data Science and Machine Learning</option><option value='discipline4'>Non-relational database systems</option>");
+				}
+				else if (val == "course3educationalprogram4") {
+					$("#group").html("<option value='group1'>FIN - 1801</option><option value='FIN1802'>FIN - 1802</option>");
+					$(".discipline").html("<option>Select discipline</option><option value='discipline1'>SWD7: MobIle technologIes and application</option><option value='discipline2'>Web Programming 2</option><option value='discipline3'>Data Science and Machine Learning</option><option value='discipline4'>Non-relational database systems</option>");
+				}
+				else if (val == "course3educationalprogram5") {
+					$("#group").html("<option value='group1'>IS - 1801</option><option value='IS1802'>IS - 1802</option>");
+					$(".discipline").html("<option>Select discipline</option><option value='discipline1'>SWD7: MobIle technologIes and application</option><option value='discipline2'>Web Programming 2</option><option value='discipline3'>Data Science and Machine Learning</option><option value='discipline4'>Non-relational database systems</option>");
+				}
+				else if (val == "course3educationalprogram6") {
+					$("#group").html("<option value='group1'>ITM - 1801</option><option value='ITM1802'>ITM - 1802</option>");
+					$(".discipline").html("<option>Select discipline</option><option value='discipline1'>SWD7: MobIle technologIes and application</option><option value='discipline2'>Web Programming 2</option><option value='discipline3'>Data Science and Machine Learning</option><option value='discipline4'>Non-relational database systems</option>");
+				}
+				//course 4
+				else if (val == "course4educationalprogram1") {
+					$("#group").html("<option value='group1'>CS - 1701</option><option value='CS1702'>CS - 1702</option>");
+					$(".discipline").html("<option>Select discipline</option><option value='discipline1'>Philosophy</option><option value='discipline2'>Web Programming 2</option><option value='discipline3'>Data Science and Machine Learning</option><option value='discipline4'>Non-relational database systems</option>");
+				}
+				else if (val == "course4educationalprogram2") {
+					$("#group").html("<option value='group1'>CSSE - 1701</option><option value='CSSE1702'>CSSE - 1702</option>");
+					$(".discipline").html("<option>Select discipline</option><option value='discipline1'>SWD7: MobIle technologIes and application</option><option value='discipline2'>Web Programming 2</option><option value='discipline3'>Data Science and Machine Learning</option><option value='discipline4'>Non-relational database systems</option>");
+				}
+				else if (val == "course4educationalprogram3") {
+					$("#group").html("<option value='group1'>FIN - 1701</option><option value='FIN1702'>FIN - 1702</option>");
+					$(".discipline").html("<option>Select discipline</option><option value='discipline1'>Insurance</option><option value='discipline2'>Web Programming 2</option><option value='discipline3'>Data Science and Machine Learning</option><option value='discipline4'>Non-relational database systems</option>");
+				}
+				else if (val == "course4educationalprogram4") {
+					$("#group").html("<option value='group1'>IS - 1701</option><option value='IS1702'>IS - 1702</option>");
+					$(".discipline").html("<option>Select discipline</option><option value='discipline1'>Development of mobile application</option><option value='discipline2'>Web Programming 2</option><option value='discipline3'>Data Science and Machine Learning</option><option value='discipline4'>Non-relational database systems</option>");
+				}
+				else if (val == "course4educationalprogram5") {
+					$("#group").html("<option value='group1'>ITM - 1701</option><option value='ITM1702'>ITM - 1702</option>");
+					$(".discipline").html("<option>Select discipline</option><option value='discipline1'>Innovation Management</option><option value='discipline2'>Web Programming 2</option><option value='discipline3'>Data Science and Machine Learning</option><option value='discipline4'>Non-relational database systems</option>");
+				}
+			});
 		});
-	});
+
+		$(document).ready(function(){
+			$("#course").change(function(){
+		        var val = $(this).val();
+		        if (val == "") {}
+			});
+		});
 
 
-        $(function(){
-            $('.selectpicker').selectpicker();
-        });
-        var $maxWidthElement = $('.navbar'),
-            maxWidth = $maxWidthElement.width();
+	        $(function(){
+	            $('.selectpicker').selectpicker();
+	        });
+	        var $maxWidthElement = $('.navbar'),
+	            maxWidth = $maxWidthElement.width();
 
-        function positionDropdowns() {
-            $('.dropdown-menu').each(function() {
-                $(this).removeClass('dropdown-menu-right');
-                var $navItem = $(this).closest('.dropdown'),
-                    dropdownWidth = $(this).outerWidth(),
-                    dropdownOffsetLeft = $navItem.offset().left,
-                    dropdownOffsetRight = maxWidth - (dropdownOffsetLeft + dropdownWidth),
-                    linkCenterOffsetLeft = dropdownOffsetLeft + $navItem.outerWidth() / 2,
-                    outputCss = {
-                        left: 0,
-                        right: '',
-                        width: ''
-                    };
+	        function positionDropdowns() {
+	            $('.dropdown-menu').each(function() {
+	                $(this).removeClass('dropdown-menu-right');
+	                var $navItem = $(this).closest('.dropdown'),
+	                    dropdownWidth = $(this).outerWidth(),
+	                    dropdownOffsetLeft = $navItem.offset().left,
+	                    dropdownOffsetRight = maxWidth - (dropdownOffsetLeft + dropdownWidth),
+	                    linkCenterOffsetLeft = dropdownOffsetLeft + $navItem.outerWidth() / 2,
+	                    outputCss = {
+	                        left: 0,
+	                        right: '',
+	                        width: ''
+	                    };
 
-                if ((linkCenterOffsetLeft - dropdownWidth / 2 > 0) & (linkCenterOffsetLeft + dropdownWidth / 2 < maxWidth)) {
-                    // center the dropdown menu if possible
-                    outputCss.left = -(dropdownWidth / 2 - $navItem.outerWidth() / 2);
-                } else if ((dropdownOffsetRight < 0) & (dropdownWidth < dropdownOffsetLeft + $navItem.outerWidth())) {
-                    // set the dropdown menu to left if it exceeds the viewport on the right
-                    $(this).addClass('dropdown-menu-right');
-                    outputCss.left = '';
-                } else if (dropdownOffsetLeft + dropdownWidth > maxWidth) {
-                    // full width if the dropdown is too large to fit on the right
-                    outputCss.left = 0;
-                    outputCss.right = 0;
-                    outputCss.width = maxWidth + 'px';
-                }
-                $(this).css({
-                    left: outputCss.left,
-                    right: outputCss.right,
-                    width: outputCss.width
-                });
-            });
-        }
+	                if ((linkCenterOffsetLeft - dropdownWidth / 2 > 0) & (linkCenterOffsetLeft + dropdownWidth / 2 < maxWidth)) {
+	                    // center the dropdown menu if possible
+	                    outputCss.left = -(dropdownWidth / 2 - $navItem.outerWidth() / 2);
+	                } else if ((dropdownOffsetRight < 0) & (dropdownWidth < dropdownOffsetLeft + $navItem.outerWidth())) {
+	                    // set the dropdown menu to left if it exceeds the viewport on the right
+	                    $(this).addClass('dropdown-menu-right');
+	                    outputCss.left = '';
+	                } else if (dropdownOffsetLeft + dropdownWidth > maxWidth) {
+	                    // full width if the dropdown is too large to fit on the right
+	                    outputCss.left = 0;
+	                    outputCss.right = 0;
+	                    outputCss.width = maxWidth + 'px';
+	                }
+	                $(this).css({
+	                    left: outputCss.left,
+	                    right: outputCss.right,
+	                    width: outputCss.width
+	                });
+	            });
+	        }
 
-        $("#trigger-btn").on("click", function() {
-            positionDropdowns();
-            $(this)
-                .text("Done!")
-                .addClass("btn-success")
-                .removeClass("btn-danger");
-        });
+	        $("#trigger-btn").on("click", function() {
+	            positionDropdowns();
+	            $(this)
+	                .text("Done!")
+	                .addClass("btn-success")
+	                .removeClass("btn-danger");
+	        });
 
-        var resizeTimer;
+	        var resizeTimer;
 
-        $(window).on("resize", function(e) {
-            clearTimeout(resizeTimer);
-            resizeTimer = setTimeout(function() {
-                maxWidth = $maxWidthElement.width();
-                positionDropdowns();
-            }, 250);
-        });
+	        $(window).on("resize", function(e) {
+	            clearTimeout(resizeTimer);
+	            resizeTimer = setTimeout(function() {
+	                maxWidth = $maxWidthElement.width();
+	                positionDropdowns();
+	            }, 250);
+	        });
 	</script>
 </body>
 </html>

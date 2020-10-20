@@ -9,3 +9,27 @@ th{
 body{
 	background: #f6f2f3;
 }
+.signin{
+	background-color: #00a787;
+	border-color: #00a787;
+}
+.card-header{
+	background-color: #e6edf7;
+}
+footer{
+	background-color: #1c2331;
+}
+.signup{
+	border-width: 2px;
+	border-radius: 50px;
+}
+.copyright{
+	font-weight: 400;
+	background-color: #161c27;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.contactus{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
