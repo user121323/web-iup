@@ -178,7 +178,7 @@ button.social-signin.google {
 footer{
     background-color: #1c2331;
 }
-.send{
+#send{
     border-width: 2px;
     border-radius: 30px;
 }
