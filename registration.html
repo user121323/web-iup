@@ -16,45 +16,45 @@
 
 </head>
 <body style="background-color: #f6f2f3">
+
     <header>
-        <div class="header_top">
-            <nav class="navbar navbar-dark bg-dark navbar-expand-md">
-                <div class="col-lg-1">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/1/11/Zenkit_Logo_Icon.png" height="50" width="37">
-                </div>
-                <div class="container">
-                    <ul class="nav">
-                      <li class="nav-item">
-                        <a class="nav-link text-white-50" href="mainPage.html">Formation IUP</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link text-white-50" href="contacts.html">Contacts</a>
-                      </li>
-                </div>
+        <div class="topnav" id="myTopnav">
+            <div class="header_top">
+                    <nav class="navbar navbar-dark bg-dark navbar-expand-md">
+                        <div>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/1/11/Zenkit_Logo_Icon.png" height="50" width="37">
+                        </div>
+                        <div class="container d-flex justify-content-center" id="menuitems">
+                            <ul class="nav">
+                              <li class="nav-item">
+                                <a class="nav-link text-white-50" href="mainPage.html">Formation IUP</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link text-white-50" href="contacts.html">Contacts</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link text-white-50" href="login.html">Login</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link text-white-50" href="registration.html">Registration</a>
+                              </li>
+                            </ul>
+                        </div>
 
-                <div class="container d-flex justify-content-end my-2 my-lg-0">
-                    <ul class="nav">
-                      <li class="nav-item">
-                        <a class="nav-link text-white-50" href="login.html">Login</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link text-white-50" href="registration.html">Registration</a>
-                      </li>
-                </div>
+                        <div >
+                            <select class="selectpicker bg-dark text-white" data-width="fit" id="languages">
+                                <option data-content='<span class=" flag-icon-us"></span> English'>ENG</option>
+                                <option  data-content='<span class="flag-icon flag-icon-mx"></span> Español'>RUS</option>
+                            </select>
+                            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                                <i class="fa fa-bars"></i>
+                            </a>
 
-                <div class="col-lg-1">
-
-                    <select class="selectpicker bg-dark text-white" data-width="fit">
-                        <option data-content='<span class=" flag-icon-us"></span> English'>ENG</option>
-                        <option  data-content='<span class="flag-icon flag-icon-mx"></span> Español'>RUS</option>
-                    </select>
-
-
-                </div>
-            </nav>
-        </div>  
+                        </div>
+                    </nav>
+                </div>  
+        </div>
     </header>
-
 
 
     <section>
@@ -111,7 +111,14 @@
       </div>
     </footer>
 
-    <script>
+    <script>    
+        function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
         $(function(){
             $('.selectpicker').selectpicker();
         });

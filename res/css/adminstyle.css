@@ -1,0 +1,20 @@
+
+footer{
+	background-color: #1c2331;
+	font-weight: 400;
+	margin-top: 50px;
+}
+.send{
+	border-width: 2px;
+	border-radius: 20px;
+}
+.copyright{
+	font-weight: 400;
+	background-color: #161c27;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.contactus{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
